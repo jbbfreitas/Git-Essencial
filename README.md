@@ -45,9 +45,17 @@ Toda ferramenta VCS é poderosa!
 
 5. Mercurial- É uma ferramenta de controle de versão de software utilizada por grandes empresas como o Facebook e Google. Rápida na execução dos comandos e adequada para equipes grandes, isso porque ela é uma ferramenta de controle de versão distribuída.
 
+#### Principais vantagens do GIT
 
-#### Por que é impor
+- **Distribuída**. Isso significa que **não há um servidor central** . Cada desenvolvedor tem uma versão instalada em sua estação de trabalho e vai fazendo o seu próprio controle de versão (*commit*) até que seja necessário enviar para um ponto central onde todos tenham acesso (*push*). Se isso lhe parece pouco pense que a aplicação está replicada em diversos pontos (não há o risco de um desastre em um único servidor) e a rede não é sobrecarregada com os *commits* locais.
 
+- **Encoraja a participação**. Como não há um servidor central, os desenvolvedores são encorajados a "deixar suas idéias fluir" sem o risco de danificar o projeto como um todo, submentendo as suas mudanças para que sejam incluídas ou rejeitadas.
+
+#### Quem deveria usar o GIT?
+
+- Os que desejam rastrear as edições de seus arquivos
+    - revisar histórico
+    -  
 
 
 
