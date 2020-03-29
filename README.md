@@ -3,6 +3,8 @@
 
 ## Usando uma linguagem fácil e com aplicações práticas, a idéia é simplificar ao máximo o uso de uma poderosa e indispensável ferramenta.
 
+## 1.Introdução
+
 ### Por que indispensável?
 
 Bom, se você vai desenvolver um sistema, certamente terá que lidar com inúmeros arquivos (classes, configurações, scripts etc) em um processo de desenvolvimento incremental. 
@@ -54,8 +56,19 @@ Toda ferramenta VCS é poderosa!
 #### Quem deveria usar o GIT?
 
 - Os que desejam rastrear as edições de seus arquivos
-    - revisar histórico
-    -  
+    - revisar histórico e os reigstros com as mudanças realizadas
+    - comparar versões de arquivos
+    - recuperar versões anteriores
+- Aqueles que desejam compartilhar mudanças com os seus colegas
+- Programadores e desenvolvedores para gerenciar arquivos 
+    - HTML,CSS, JavaScript
+    - PHP, Ruby, TypeScript
+    - Java, C, C#
+- Não deve ser usado para
+    - Arquivos de mídia (fotos, filmes, música)
+    - Processadores de texto, planilhas e PDF
 
+
+[Ir para Instalando o GIT](../Introducao/README.md) 
 
 
