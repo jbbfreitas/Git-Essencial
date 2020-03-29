@@ -44,7 +44,19 @@ git config --global user.name "João Bosco de Barros Freitas"
 git config user.email
 ````
 
+::: :pushpin: Importante :::
+
+>As configurações de usuário e email são obrigatórias para indentificar os seus commits
 
 
+#### 3.6-Obtendo ajuda 
+````
+git help
+
+git help <command> 
+Ex git help commit
+Ou 
+man git-commit
+````
 
 
