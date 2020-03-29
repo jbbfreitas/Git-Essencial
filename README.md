@@ -20,8 +20,8 @@ Pense nas seguintes questões:
 
 Agora imagine que, além de tudo isso, você está trabahando com mais 3 ou 4 colegas que estão em outros locais e fazendo inclusão, alteração e exclusão de arquivos o tempo todo!
 
-#### Consegui te convencer que é indispensável o uso de uma para gerenciar versões?
- 
+#### Consegui te convencer que é indispensável o uso de uma ferramenta para te ajudar a gerenciar versões de arquivos?
+
 
 ### Por que poderosa?
 
