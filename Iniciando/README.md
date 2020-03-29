@@ -37,7 +37,7 @@ dir .git
 
 #### 4.2 Vamos fazer o nosso primeiro commit?
 
-1. Na pasta "Git-Essencial" crie um arquivo denominado primeiro.txt
+1. Na pasta "Git-Essencial" crie um arquivo denominado `primeiro.txt`
 2. Digite neste arquivo o texto "Primeiro arquivo com o git" .
 3. Salve o arquivo
 4. No prompt de comandos digite:
@@ -54,7 +54,7 @@ git commit -m "Commit inicial"
  create mode 100644 primeiro.txt
 ````
 
-:thumbsup: Se apareceu a mensagem acima para você, parabén . 
+:thumbsup: Se apareceu a mensagem acima para você, parabéns . 
 
 
 
