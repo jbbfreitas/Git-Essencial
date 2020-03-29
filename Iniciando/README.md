@@ -35,6 +35,25 @@ dir .git
 ````
 >Observe que foram criados 3 arquivos e 4 pastas (outros/arquivos pastas podem ser criados dependendo do seu sistema operacional)
 
+#### 4.2 Vamos fazer o nosso primeiro commit?
+
+1. Na pasta "Git-Essencial" crie um arquivo denominado primeiro.txt
+2. Digite neste arquivo o texto "Primeiro arquivo com o git" .
+3. Salve o arquivo
+4. No prompt de comandos digite:
+
+````
+git commit add .
+git commit -m "Commit inicial"
+````
+
+````
+(base) jbbf:~/Documents/Grupo de Estudo/Git-Essencial $ git commit -m "Commit Inicial"
+[master (root-commit) 27731e8] Commit Inicial
+ 1 file changed, 1 insertion(+)
+ create mode 100644 primeiro.txt
+````
+
 
 
 
