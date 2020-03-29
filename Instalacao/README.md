@@ -25,3 +25,10 @@ Para fazer uma instalação automatizada, você pode usar o pacote Git do Chocol
 Outra forma fácil de obter Git instalada é através da instalação de GitHub para Windows. O instalador inclui uma versão de linha de comando do Git, bem como a GUI. Ele também funciona bem com o PowerShell, e configura o cache de credenciais sólidas e as devidas configurações CRLF.  Você pode baixá-lo da página GitHub para Windows, em http://windows.github.com.
 
 #### 2.4-Instalando no Windows
+
+Para testar se o git está corretamente instalado, digite:
+
+````
+$ git --version
+````
+
