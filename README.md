@@ -69,6 +69,6 @@ Toda ferramenta VCS é poderosa!
     - Processadores de texto, planilhas e PDF
 
 
-[Ir para Instalando o GIT](/Introducao/README.md) 
+Próximo Passo [Instalar o GIT](/Introducao/README.md) ) 
 
 
