@@ -54,6 +54,7 @@ git commit -m "Commit inicial"
  create mode 100644 primeiro.txt
 ````
 
+:thumbsup: Se apareceu a mensagem acima para você, parabén . 
 
 
 
