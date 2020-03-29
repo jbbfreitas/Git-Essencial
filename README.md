@@ -19,4 +19,8 @@ agora você tem a versão 2. No dia seguinte, você faz mais algumas mudanças, 
 - permite que você alterne entre diferentes versões, compare as diferentes versões e 
 - possa ver o que mudou entre cada uma delas.
 
+#### O Git é um VCS
+
+`Um VCS nada mais é do que a sigla em ingles para "Version Control System" ou Sistema de Controle de Versões, entendeu?`
+
 
