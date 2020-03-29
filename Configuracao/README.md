@@ -17,7 +17,6 @@ Use o comando abaixo para configurar para o seu usuário.
 
 ````
 git config --global
-
 ````
 #### 3.3-Project
 
@@ -27,12 +26,25 @@ Use o comando abaixo para configurar para o projeto corrente.
 
 ````
 git config 
-
 ````
 
 ::: :pushpin: Importante :::
 
->Use de preferência a configuração `git config --global`
+>Use, de preferência, a configuração `git config --global`
+
+#### 3.4-Configuração de exemplo
+
+````
+git config --global user.email "jbbfreitas@gmail.com"
+git config --global user.name "João Bosco de Barros Freitas"
+````
+
+#### 3.5-Exibindo a configuração atual
+```
+git config user.email
+````
+
+
 
 
 
