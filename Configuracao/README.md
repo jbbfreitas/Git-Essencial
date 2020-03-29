@@ -23,11 +23,16 @@ git config --global
 
 A última configuração é válida apenas para um projeto específico.
 
-Use o comando abaixo para configurar para o seu usuário.
+Use o comando abaixo para configurar para o projeto corrente.
 
 ````
 git config 
 
 ````
+
+::: :pushpin: Importante :::
+
+>Use de preferência a configuração `git config --global`
+
 
 

@@ -32,4 +32,4 @@ Para testar se o git está corretamente instalado, no prompt de comando, digite:
 $ git --version
 ````
 
-Próximo Passo [Configurar o GIT](../Configuracao/README.md) ) 
+Próximo Passo [Configurar o GIT](../Configuracao/README.md)
