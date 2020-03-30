@@ -57,6 +57,7 @@ git commit -m "Commit inicial"
 :thumbsup: Se apareceu a mensagem acima para você, parabéns! Você fez o seu primeiro `commit`
 
  
+Próximo Passo [Melhoras práticas com o GIT](../MelhoresPraticas/README.md)
 
 
 
