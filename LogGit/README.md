@@ -1,10 +1,10 @@
-### 6.Principais comando do GIT
+### 6.Principais tipos de Log (reigstro) do GIT
 
 O git foi concebido para ser uma ferramenta de `linha de comando`, ou seja, para ser usada no `terminal` ou `console` ou no `command` do windows. Mas para aqueles que odeiam as aplicações de linha de comando, fiquem tranquilos por que existem inúmeras ferramentas gráficas que irão auxiliar no uso do git.
 
 Mas lembre-se: `TI não é para os fracos`. :flushed: 
 
-Vamos passar então para os primeiros comando do Git:
+Vamos passar então para os principais tipos de log  Git:
 
 #### 6.1 Log
 
@@ -91,3 +91,6 @@ Veja como fica o resultado.
 ````
 Mostra todos os commits contendo como parte do nome do autor "Bosco"
 ````
+
+Próximo Passo [Arquitetura e Fluxo do GIT](/ArqFlux/README.md)
+
