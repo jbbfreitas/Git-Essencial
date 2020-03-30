@@ -9,7 +9,7 @@ Veja a figura abaixo:
 
 
 <p align="center">
-  <img src="Imagens/Arquitetura3Arvores.png" alt="Arquitetura de 3 árvores do Git">
+  <img src="../imagens/Arquitetura3Arvores.png" alt="Arquitetura de 3 árvores do Git">
 </p>
 <p align="center">
    <strong>Figura 1- Arquitetura de 3 árvores do Git</strong> 
