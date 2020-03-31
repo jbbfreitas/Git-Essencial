@@ -59,6 +59,6 @@ Ou
 man git-commit
 ````
 
-Próximo Passo [Iniciando com o GIT](../Iniciando/README.md)
+Próximo Passo [Iniciando com o GIT](../4-Iniciando/README.md)
 
 
