@@ -44,6 +44,6 @@ As mensagens de commit irão orientar você e sua equipe quando verificarem o lo
 - Use * ou  - como bullets
 - Pode-se usar o número de uma *issue* de erro (número de registro em um sistema de *bug tracker* como o [Redmine] (https://www.redmine.org/) p. exemplo )
 
-Próximo Passo [Principais comando  do GIT](/LogGit/README.md)
+Próximo Passo [Verificando o Log do GIT](/LogGit/README.md)
 
 
