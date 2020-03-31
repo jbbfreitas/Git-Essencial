@@ -92,5 +92,5 @@ Veja como fica o resultado.
 Mostra todos os commits contendo como parte do nome do autor "Bosco"
 ````
 
-Próximo Passo [Arquitetura e Fluxo do GIT](/7-ArqFlux/README.md)
+Próximo Passo [7-Arquitetura e Fluxo do GIT](/7-ArqFlux/README.md)
 
