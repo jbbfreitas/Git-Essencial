@@ -70,6 +70,21 @@ A sintaxe completa do comando `git commit` é seguinte:
 git add -m "Mensagem do Commit"
 ````
 
+#### 7.2 Como o GIT referencia os Commits
+
+Observe a figura abaixo:
+
+
+<p align="center">
+  <img src="../imagens/RerefenciaCommits.png" alt="Como o Git referencia os commits">
+</p>
+<p align="center">
+   <strong>Figura 2- Como o Git referencia os commits</strong> 
+</p>
+
+
+
+
 
 
 
