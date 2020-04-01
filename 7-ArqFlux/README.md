@@ -76,7 +76,7 @@ Observe a figura abaixo:
 
 
 <p align="center">
-  <img src="../imagens/RerefenciaCommits.png" alt="Como o Git referencia os commits">
+  <img src="../imagens/RerefenciaACommits.png" alt="Como o Git referencia os commits">
 </p>
 <p align="center">
    <strong>Figura 2- Como o Git referencia os commits</strong> 
