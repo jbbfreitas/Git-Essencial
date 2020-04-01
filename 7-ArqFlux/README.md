@@ -133,6 +133,8 @@ Isso fica evidente na Listagem 5, o `Head` posiciona-se no commit de hash `e56fe
    <strong>Figura 3-Uma típica árvore do Git com um Master, Branch e Head</strong> 
 </p>
 
+Próximo Passo [8-Como movimentar o Head](../8-MovHead/README.md)
+
 
 
 
