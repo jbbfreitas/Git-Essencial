@@ -82,7 +82,20 @@ Observe a figura abaixo:
    <strong>Figura 2- Como o Git referencia os commits</strong> 
 </p>
 
+> Os números na parte de cima `5c15e8bd54...`, `38e73d6134...`, `a614b53e28...` são o `hash` gerado usando o algorítmo SHA-1, funcionam como se fossem um índice único. O Git usa os `hashs` para fazer a navegação entre versões.    
 
+> Cada versão tem como `pai` o hash da versão anterior, formando uma lista encadeada. É por isso que é possível avançar e voltar nas versões.
+
+
+#### 7.3 Como o GIT identifica a versão corrente
+
+
+<p align="center">
+  <img src="../imagens/ArvoreGit.png" alt="Uma típica árvore do Git com um Master, Branch e Head">
+</p>
+<p align="center">
+   <strong>Figura 3-Uma típica árvore do Git com um Master, Branch e Head</strong> 
+</p>
 
 
 
