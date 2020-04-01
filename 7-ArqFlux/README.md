@@ -43,6 +43,10 @@ git add *.txt
 git add .
 
 ````
+<p align="center">
+   <strong>Listagem 1-Exemplos de `git add`</strong> 
+</p>
+
 O comando `git add .`, adiciona todos os arquivos que estão no `Working` ao `Stagin`.
 
 ::: :pushpin: Importante :::
@@ -52,11 +56,19 @@ O comando `git add .`, adiciona todos os arquivos que estão no `Working` ao `St
 ````
 git rm --cached file.txt
 ````
+<p align="center">
+   <strong>Listagem 2-Exemplo de `git rm`</strong> 
+</p>
+
+
 > Em nosso exemplo, especificamos o comando "rm", que significa remover. A opção "--cached" indica arquivos na área de `Stagin`. Por fim, passamos um arquivo que queremos excluir dessa área. O Git emitirá a seguinte mensagem para nós:
 
 ````
 rm 'file.txt'
 ````
+<p align="center">
+   <strong>Listagem 3-Mensagem do Git, informando o rm`</strong> 
+</p>
 
 #### 7.1.3-Repository
 
@@ -69,6 +81,10 @@ A sintaxe completa do comando `git commit` é seguinte:
 ````
 git add -m "Mensagem do Commit"
 ````
+<p align="center">
+   <strong>Listagem 4-Informando a mensagem do commit</strong> 
+</p>
+
 
 #### 7.2 Como o GIT referencia os Commits
 
@@ -89,16 +105,7 @@ Observe a figura abaixo:
 
 #### 7.3 Como o GIT identifica a versão corrente
 
-A Figura 3 apresenta uma árvore Git contendo o `master` e um `branch`. Tanto o `master` como o `branch` possuem 3 versões. O `head` é como se fosse a uma cabeça de leitura (como nas antigas fitas K-7). Na verdade é um ponteiro que se posiciona na versão corrente. Isso fica evidente na listagem abaixo.  O `Head` posiciona-se no commit `e56fed3` do `master`. É fácil concluir que se Você movimentar o `Head` para traz,  o Git vai retrocedendo para versões mais antigas.
-
-A pergunta é: como movimentar o `Head`?
-
-<p align="center">
-  <img src="../imagens/ArvoreGit.png" alt="Uma típica árvore do Git com um Master, Branch e Head">
-</p>
-<p align="center">
-   <strong>Figura 3-Uma típica árvore do Git com um Master, Branch e Head</strong> 
-</p>
+A Figura 3 apresenta uma árvore Git contendo o `master` e um `branch`. Tanto o `master` como o `branch` possuem 3 versões. O `head` é como se fosse a uma cabeça de leitura (como nas antigas fitas K-7). Na verdade é um ponteiro que se posiciona na versão corrente. 
 
 ````
 $ git log --oneline
@@ -110,6 +117,22 @@ ae905b3 Referencia a commits
 3ab9529 renumerando
 
 ````
+<p align="center">
+   <strong>Listagem 5-Uma típica árvore do Git com um Master, Branch e Head</strong> 
+</p>
+
+
+Isso fica evidente na Listagem 5, o `Head` posiciona-se no commit de hash `e56fed3` do `master`. É fácil concluir que se Você movimentar o `Head` para traz,  o Git vai retrocedendo para versões mais antigas.
+
+#### A pergunta é: como movimentar o `Head`?
+
+<p align="center">
+  <img src="../imagens/ArvoreGit.png" alt="Uma típica árvore do Git com um Master, Branch e Head">
+</p>
+<p align="center">
+   <strong>Figura 3-Uma típica árvore do Git com um Master, Branch e Head</strong> 
+</p>
+
 
 
 
