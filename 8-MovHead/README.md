@@ -36,11 +36,7 @@ Veja o `HEAD` está está no hash `165d656`
 > 
 165d656 (HEAD -> master, origin/master, origin/HEAD) Criada a classe Arquivo1.java
 844c6a6 update
-0bcfb4c update
-e56fed3 update
-f0e857a update
-fb7c376 Referencia a commits (update)
-ae905b3 Referencia a commits
+...
 ```
 6. Vamos agora alterar o `Arquivo1.java`. Para isso digite:
 
@@ -68,15 +64,17 @@ $ git commit -m "Alterada a classe Arquivo1.java"
 $ git log --oneline
 ```
 
-Veja o `HEAD` está está no hash `165d656`
+Veja o `HEAD` está está no hash `7645321`
 
 ```git
 > 
+7645321 (HEAD -> master, origin/master, origin/HEAD) Alterada a classe Arquivo1.java
 165d656 (HEAD -> master, origin/master, origin/HEAD) Criada a classe Arquivo1.java
 844c6a6 update
-0bcfb4c update
-e56fed3 update
-f0e857a update
-fb7c376 Referencia a commits (update)
-ae905b3 Referencia a commits
+...
+```
+9. Vamos movimentar o `Head`. Para isso digite:
+
+```git
+
 ```
