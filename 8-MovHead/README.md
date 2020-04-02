@@ -73,8 +73,22 @@ Veja o `HEAD` está está no hash `7645321`
 844c6a6 update
 ...
 ```
-9. Vamos movimentar o `Head`. Para isso digite:
+9. Anote o seu hash atual, no nosso exemplo seria `7645321`
+
+10. Vamos movimentar o `Head`. Para isso digite:
 
 ```git
-
+$ git reset 165d656  <substitua 165d656 pelo seu hash anterior>
 ```
+10. Verifique o conteúdo do `Arquivo1.java`, veja como voltou ao conteúdo da Listagem1 
+
+11. Agora volte para o hash anterior
+
+```git
+$ git reset 7645321  <substitua 7645321 pelo hash que você anotou>
+```
+
+12. Verifique o conteúdo do `Arquivo1.java`, veja como está idêntico ao da Listagem2 
+
+
+> Em resumo: O comando `git reset` movimenta o `head` 
