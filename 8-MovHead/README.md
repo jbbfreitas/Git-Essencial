@@ -28,8 +28,16 @@ $ git commit -m "Commit inicial"
 
 ```git
 $ git log --oneline
-> 
 ```
-Verique onde está o Head
 
+Veja o `HEAD` está está no hash `165d656`
 
+```git
+165d656 (HEAD -> master, origin/master, origin/HEAD) Criada a classe Arquivo1.java
+844c6a6 update
+0bcfb4c update
+e56fed3 update
+f0e857a update
+fb7c376 Referencia a commits (update)
+ae905b3 Referencia a commits
+```
