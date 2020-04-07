@@ -48,8 +48,7 @@ git commit -m "Commit inicial"
 ````
 
 ````
-(base) jbbf:~/Documents/Grupo de Estudo/Git-Essencial $ git commit -m "Commit Inicial"
-[master (root-commit) 27731e8] Commit Inicial
+$ [master (root-commit) 27731e8] Commit Inicial
  1 file changed, 1 insertion(+)
  create mode 100644 primeiro.txt
 ````
