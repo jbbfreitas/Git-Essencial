@@ -1,5 +1,4 @@
 ### 8-Como movimentar o Head
-
 Para mostrar como movimentar o `Head` vamos fazer um pequeno tutorial.
 
 1. Crie um pasta denominada `lab1``
@@ -92,3 +91,5 @@ $ git reset 7645321  <substitua 7645321 pelo hash que você anotou>
 
 
 > Em resumo: O comando `git reset` movimenta o `head` 
+
+Próximo Passo [9-Adicionando Arquivos ao Staging](../9-Adicionando Arquivos ao Staging/README.md)
