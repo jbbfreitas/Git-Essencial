@@ -26,29 +26,29 @@ public class Arquivo2 {
 ````
 4. Após salvar o arquivo, no `prompt` execute o comando para mostrar o status
 
-````
+```
 $ git status
 
-````
+```
 
 :thumbsup: Se apareceu a mensagem abaixo é por que você seguiu os passos corretamente até aqui. 
 
-````
+```
 > $ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         lab2/
-`````
+```
 
 > A mensagem do Git, acima, está dizendo que existem arquivos `Untracked`, ou seja, que não estão sendo rastreados (gerenciados) ainda.
 
 5. Agora vamos adicionar o `Arquivo2.java` na área de `staging`
-````
+```
 $ git add lab2/Arquivo2.java
 
-````
+```
 :thumbsup: Se apareceu a mensagem abaixo é por que você seguiu os passos corretamente até aqui. 
 
-````
+```
 On branch master
 Your branch is up to date with 'origin/master'.
 
@@ -57,7 +57,7 @@ Changes to be committed:
 
 	new file:   lab2/Arquivo2.java
 
-`````
+```
 > A mensagem do Git, acima, está dizendo que agora o `Arquivo2.java` está sendo rastreado, pois acaba de ser incluído na área de `staging`.
 
 > Você entendeu a diferença do `git add . ` para  o `git add lab2/Arquivo2.java` ?
@@ -75,18 +75,18 @@ git commit -a -m "Mensagem do seu commit"
 
 ou, simplesmente
 
-`````
+```
 git commit -am "Mensagem do seu commit"
 
-````
+```
 
 > O parâmetro `-a` é uma abreviação de `add .`
 
 Você poderia usar ainda:
 
-````
+```
 git commit -a "lab2/Arquivo2.java" -m "Mensagem do seu commit"
-````
+```
 
 Próximo Passo [10-Diferenca entre dois arqvuos](../10-Diferenca entre dois arqvuos/README.md)
 
