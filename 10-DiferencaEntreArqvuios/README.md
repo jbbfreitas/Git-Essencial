@@ -101,10 +101,14 @@ index 59c3afe..147effe 100644
 ```
 Pergunto: e se fizermos o `git diff` (sem o --staged), o que acontece?
 
-### 3. diferença entre working e repository
+### 3. Diferença entre working e repository
+
+Vamos verificar quais os commits realizados até agora:
+
+Faça:
 
 ```
-git log --oneline
+$ git log --oneline
 ```
 
 ```
@@ -114,7 +118,7 @@ b9544f7 (HEAD -> master) modificado o Arquivo1.java
 Agora faça
 
 ```
-git diff b9544f7 (coloque aqui o hash do seu commit)
+$ git diff b9544f7 (coloque aqui o hash do seu commit)
 ```
 
 ```
