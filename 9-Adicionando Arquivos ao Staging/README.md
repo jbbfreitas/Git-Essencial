@@ -87,6 +87,11 @@ Você poderia usar ainda:
 ````
 git commit -a "lab2/Arquivo2.java" -m "Mensagem do seu commit"
 
+Próximo Passo [10-Diferença entre dois arqvuos](../10-Diferença entre dois arqvuos/README.md)
+
+
+
+
 
 
 
