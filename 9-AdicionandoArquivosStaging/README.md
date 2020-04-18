@@ -28,7 +28,6 @@ public class Arquivo2 {
 
 ```
 $ git status
-
 ```
 
 :thumbsup: Se apareceu a mensagem abaixo é por que você seguiu os passos corretamente até aqui. 

@@ -6,14 +6,14 @@ Mas veja, quando falamos de diferença entre versões de arquivo é preciso rele
 
 Lembra-se da arquitura de 3 árvores (three-tree architecture) ?. Então quando estamos falando de diferença entre versões podemos nos referir a qualquer uma das diferenças abaixo:
 
-1. dirença entre working e staging;
-2. diferença enrtre staging e repository;
-3. diferença entre working e repository ;
+1. Diferença entre working e staging
+2. Diferença enrtre staging e repository
+3. Diferença entre working e repository
 
 Vamos mostrar isso com exemplos.
 
 
-### 1. dirença entre working e staging;
+### 1. Diferença entre working e staging;
 
 - Na pasta `lab1` modifique o Arquivo1.java para e, em seguida, salve-o 
 
@@ -29,9 +29,9 @@ public class Arquivo1 {
 Agora faça 
 
 ```
-git stauts
+$ git stauts
 ````
-e o git reponde com:
+e o git responde com:
 ````
 On branch master
 Changes not staged for commit:
@@ -41,12 +41,12 @@ Changes not staged for commit:
 	modified:   lab1/Arquivo1.java
 
 no changes added to commit (use "git add" and/or "git commit -a")
-```
+````
 
 Agora faça
 
 `````
-git diff
+$ git diff
 ````
 e veja o que acontece
 
@@ -67,7 +67,7 @@ index 59c3afe..147effe 100644
 
 O git mostra a diferença entre o working e o stagin.
 
-### 2. diferença enrtre staging e repository;
+### 2. Diferença enrtre staging e repository
 
 Agora faça
 
