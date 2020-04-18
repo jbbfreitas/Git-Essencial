@@ -137,6 +137,11 @@ index 59c3afe..147effe 100644
 
 ```
 
+> O que a instrução `$ git diff b9544f7` faz é, justamente, mostrar a diferença entre o working e o último commit.
+
+> Claro que é possível comparar o working com qualquer commit, basta usar o hash desejado.
+
+
 
 
 
