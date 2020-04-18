@@ -140,6 +140,14 @@ index 59c3afe..147effe 100644
 > O que a instrução `$ git diff b9544f7` faz é, justamente, mostrar a diferença entre o working e o último commit. Claro que é possível comparar o working com qualquer commit, basta usar o hash desejado.
 
 
+### Resumindo:
+
+1. Diferença entre working e staging (`git diff`)
+2. Diferença enrtre staging e repository (`git diff --staged`)
+3. Diferença entre working e repository (`git diff <hash desejado>`)
+
+
+
 
 
 
