@@ -146,6 +146,7 @@ index 59c3afe..147effe 100644
 2. Diferença enrtre staging e repository (`git diff --staged`)
 3. Diferença entre working e repository (`git diff <hash desejado>`)
 
+Próximo Passo [11-Emendando um commit](../11-EmendandoCommit/README.md)
 
 
 
