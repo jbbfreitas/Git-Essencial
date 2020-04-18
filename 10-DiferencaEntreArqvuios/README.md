@@ -45,12 +45,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Agora faça
 
-`````
+```
 $ git diff
-````
+```
+
 e veja o que acontece
 
-`````
+```
 diff --git a/lab1/Arquivo1.java b/lab1/Arquivo1.java
 index 59c3afe..147effe 100644
 --- a/lab1/Arquivo1.java
@@ -63,7 +64,7 @@ index 59c3afe..147effe 100644
 +        System.out.println("Olá mundo! Este é minha primeira classe modificada");
      }
  }
-`````
+```
 
 O git mostra a diferença entre o working e o stagin.
 
@@ -71,20 +72,20 @@ O git mostra a diferença entre o working e o stagin.
 
 Agora faça
 
-`````
-git add .
-````
+```
+$ git add .
+```
 
 Este comando está enviando o Arquivo1.java modificado para a área de staging. 
 
 Agora faça
 
-`````
+```
 git diff --staged
-````
+```
 Bingo! Você acertou o git agora mostra a diferença entre o staging e o repository
 
-`````
+```
 diff --git a/lab1/Arquivo1.java b/lab1/Arquivo1.java
 index 59c3afe..147effe 100644
 --- a/lab1/Arquivo1.java
@@ -102,21 +103,21 @@ Pergunto: e se fizermos o `git diff` (sem o --staged), o que acontece?
 
 ### 3. diferença entre working e repository
 
-`````
+```
 git log --oneline
-````
+```
 
-`````
+```
 b9544f7 (HEAD -> master) modificado o Arquivo1.java
-````
+```
 
 Agora faça
 
-`````
+```
 git diff b9544f7 (coloque aqui o hash do seu commit)
-````
+```
 
-`````
+```
 diff --git a/lab1/Arquivo1.java b/lab1/Arquivo1.java
 index 59c3afe..147effe 100644
 --- a/lab1/Arquivo1.java
@@ -130,7 +131,7 @@ index 59c3afe..147effe 100644
      }
  }
 
-````
+```
 
 
 
