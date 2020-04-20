@@ -1,3 +1,5 @@
+### 11-Emendando um commit
+
 Em algumas situações pode ser necessário emendar um commit, isto é, gravar um commit que corrige um feito anteriormente.
 
 É o que vamos aprender nesta lição.

@@ -1,4 +1,4 @@
-### 10-Diferença entre dois arqvuos
+### 10-Diferença entre dois arquivos
 
 Gerenciar de mudanças é, sobretudo, a capacitada de saber a qualquer tempo as diferencas entre duas versões de arquivos.
 
