@@ -32,6 +32,12 @@ public class Arquivo1 {
 
 ```
 git status
+$ On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   lab1/Arquivo1.java
+
 ````
 
 Observe que o git detectou a modificação.
@@ -51,7 +57,8 @@ f5e8cb0 (HEAD -> master) Adicionada mais uma linha no commit anterior
 ````
 
 
-> O que aconteceu aqui? Bem fizemos uma emenda (amend em inglês). Observe que continuamos com apenas 2 commits. O commit b9544f7 agora tem um novo hash f5e8cb0
+> O que aconteceu aqui? Bem fizemos uma emenda (amend em inglês). Observe que continuamos com apenas 2 commits. O commit anteior , `b9544f7` agora tem um novo hash `f5e8cb0`
 
 Facil não?
+Isso é tudo por hoje.
 
