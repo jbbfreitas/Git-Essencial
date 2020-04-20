@@ -1,6 +1,6 @@
 ### 11-Emendando um commit
 
-Em algumas situações pode ser necessário emendar um commit, isto é, gravar um commit que corrige um feito anteriormente.
+Em algumas situações pode ser necessário emendar um commit, isto é, gravar um commit que corrige o commit anterior.
 
 É o que vamos aprender nesta lição.
 
@@ -9,10 +9,8 @@ Em algumas situações pode ser necessário emendar um commit, isto é, gravar u
 ```
 git log --oneline
 
-```
-(base) jbbf:~/Documents/Grupo de Estudo/Git-EssencialLabs $ git log --oneline
-b9544f7 (HEAD -> master) modificado o Arquivo1.java
-5d98f23 commit inical
+$ b9544f7 (HEAD -> master) modificado o Arquivo1.java
+  5d98f23 commit inical
 ````
 
 Vamos imaginar que queiramos emendar o commit b9544f7.
