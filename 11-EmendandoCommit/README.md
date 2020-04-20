@@ -57,7 +57,7 @@ f5e8cb0 (HEAD -> master) Adicionada mais uma linha no commit anterior
 ````
 
 
-> O que aconteceu aqui? Bem fizemos uma emenda (amend em inglês). Observe que continuamos com apenas 2 commits. O commit anteior , `b9544f7` agora tem um novo hash `f5e8cb0`
+> O que aconteceu aqui? Bem fizemos uma emenda (amend em inglês). Observe que continuamos com apenas 2 commits. O commit anteior , `b9544f7`, teve sua mensagem "emendada" e agora tem um novo hash `f5e8cb0`
 
 Facil não?
 Isso é tudo por hoje.
