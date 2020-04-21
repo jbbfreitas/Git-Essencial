@@ -38,4 +38,27 @@ f5e8cb0 Adicionada mais uma linha no commit anterior
 
 > Observe a linha `9dd3aa4 (HEAD -> master, testing)`
 
-O git está dizendo que tanto o `master` quanto o `testing` estão apontando para o mesmo hash <9dd3aa4>
+O git está dizendo que tanto o `master` quanto o `testing` estão apontando para o mesmo hash <9dd3aa4> e que o `head`está sincronizado com o `master`, ou seja, o branch `testing` foi criado mas nós não estamos granvando nele. Para isso é preciso fazer um `checkout` para esse `branch`.
+
+#### Passando a trabalhar no novo branch
+O que acontece se você quiser trabalhar no novo branch ? 
+O HEAD precisa estar apontando para o novo branch. Você faz isso com o comando:
+
+```
+git checkout testing
+```
+
+Ou 
+
+```
+git checkout –b testing
+```
+
+Veja a Figura 2
+
+<p align="center">
+  <img src="../imagens/Branch2.png" alt="Uma típica árvore do Git com o Head apontando para o Branch">
+</p>
+<p align="center">
+   <strong>Figura 2-Uma típica árvore do Git com o Head apontando para o Branch</strong> 
+</p>
