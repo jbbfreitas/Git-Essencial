@@ -50,6 +50,7 @@ f5e8cb0 Adicionada mais uma linha no commit anterior
 5d98f23 commit inical
 
 ```
+
 OK. Vamos então reverter o commit de hash `b7b2bf6`
 
 ```
