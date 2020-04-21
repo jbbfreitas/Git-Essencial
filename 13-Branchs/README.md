@@ -13,7 +13,6 @@ O que acontece se você criar um novo branch (ramo)?
 Você faz isso com o comando:
 ```
 git branch testing
-
 ```
 Veja a imagem 
 
