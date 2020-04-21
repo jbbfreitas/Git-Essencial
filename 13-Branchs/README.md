@@ -36,6 +36,6 @@ f5e8cb0 Adicionada mais uma linha no commit anterior
 5d98f23 commit inical
 ```
 
-> Observe a linha `9dd3aa4 (HEAD -> master, testing)``
+> Observe a linha `9dd3aa4 (HEAD -> master, testing)`
 
 O git está dizendo que tanto o `master` quanto o `testing` estão apontando para o mesmo hash <9dd3aa4>
