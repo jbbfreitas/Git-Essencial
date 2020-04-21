@@ -24,3 +24,18 @@ Veja a Figura 1
 <p align="center">
    <strong>Figura 1-Uma típica árvore do Git com um Master, Branch e Head</strong> 
 </p>
+
+```
+ git log --oneline
+9dd3aa4 (HEAD -> master, testing) Revert "Revert "imprime a data formatada""
+99fffb1 Revert "imprime a data formatada"
+b7b2bf6 imprime a data formatada
+fc3be9d (origin/master) Adicionado o lab2
+cb0d1f5 Atualização em Arquivo 1
+f5e8cb0 Adicionada mais uma linha no commit anterior
+5d98f23 commit inical
+```
+
+> Observe a linha `9dd3aa4 (HEAD -> master, testing)``
+
+O git está dizendo que tanto o `master` quanto o `testing` estão apontando para o mesmo hash <9dd3aa4>
