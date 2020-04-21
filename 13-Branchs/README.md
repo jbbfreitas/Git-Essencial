@@ -60,5 +60,5 @@ Veja a Figura 2
   <img src="../imagens/Branch2.png" alt="Uma típica árvore do Git com o Head apontando para o Branch">
 </p>
 <p align="center">
-   <strong>Figura 2-Uma típica árvore do Git com o Head apontando para o Branch</strong> 
+   <strong>Figura 2-Uma típica árvore do Git com o Head apontando para o Branch `testing`</strong> 
 </p>
