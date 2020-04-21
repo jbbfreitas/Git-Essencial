@@ -62,4 +62,4 @@ f5e8cb0 (HEAD -> master) Adicionada mais uma linha no commit anterior
 Facil não?
 Isso é tudo por hoje.
 
-Próximo Passo [12-Outros Recursos Importantes](../12-OutrosRecursos/README.md)
+Próximo Passo [12-Outros Recursos](../12-OutrosRecursos/README.md)
