@@ -99,7 +99,9 @@ index 59c3afe..147effe 100644
      }
  }
 ```
-Pergunto: e se fizermos o `git diff` (sem o --staged), o que acontece?
+Pergunto: e se fizermos o `git diff` (sem o --staged), o que acontece? 
+
+	Resposta: Nada, pois o arquivo que estava no stagin foi enviado ao repository pelo comando `git add .` com isso ele realiza a comparação do arquivo work com o stagin que está vazio e retorna nada.
 
 ### 3. Diferença entre working e repository
 
@@ -120,7 +122,7 @@ Agora faça
 ```
 $ git diff b9544f7 (coloque aqui o hash do seu commit)
 ```
-
+ 	git diff d847884
 ```
 diff --git a/lab1/Arquivo1.java b/lab1/Arquivo1.java
 index 59c3afe..147effe 100644
