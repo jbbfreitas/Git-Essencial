@@ -43,7 +43,6 @@ $ git commit -am "coloca um comentário para imprimir a data formatada"
 
 $ git log --oneline
 
-```
 b7b2bf6 (HEAD -> master) coloca um comentário para imprimir a data formatada
 fc3be9d (origin/master) Adicionado o lab2
 cb0d1f5 Atualização em Arquivo 1
