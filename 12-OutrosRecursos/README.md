@@ -68,7 +68,7 @@ Vamos explicar tudo:
 
 a.  --no-edit significa que você deseja aceitar a mensagem padrao do git. Essa mendagem é "Rrevert + mensagem do último commit"
 
-b. O revert desfaz o commit solicitado mas não apaga nada. Isso significa que ele acrescenta um novo commit (no nosso caso o `99fffb1`) e, esse commit, contém os mesmos arquivos do commit anterior ao revertido (b7b2bf6). Ou seja, você está agora nas mesma situação quando fez o commit  `fc3be9d` 
+b. O revert desfaz o commit solicitado mas não apaga nada. Isso significa que ele acrescenta um novo commit (no nosso caso o `99fffb1`) e, esse commit, contém os mesmos arquivos do commit anterior ao revertido (`b7b2bf6`). Ou seja, você está agora nas mesma situação quando fez o commit  `fc3be9d` 
 
 Posso fazer o revert do revert? Sim, é que vamos fazer agora.
 
