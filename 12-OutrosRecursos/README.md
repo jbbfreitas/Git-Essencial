@@ -106,7 +106,7 @@ git reset
 git reset <hash do commit para onde se deseja ir>
 ```
 
-
+Próximo Passo [13-Branchs](../13-Branchs/README.md)
 
 
 
