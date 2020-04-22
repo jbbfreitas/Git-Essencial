@@ -34,7 +34,7 @@ fc3be9d (origin/master) Adicionado o lab2
 cb0d1f5 Atualização em Arquivo 1
 f5e8cb0 Adicionada mais uma linha no commit anterior
 5d98f23 commit inical
-```
+```    
 
 > Observe a linha `9dd3aa4 (HEAD -> master, testing)`
 
