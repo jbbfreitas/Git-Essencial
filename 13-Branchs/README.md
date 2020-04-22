@@ -150,13 +150,13 @@ Veja a Figura 3
 
 Vamos trablahar?
 
-1)Crie um nome branch denominado `Issue#1`;
+1)Crie um branch  denominado `Issue#1`;
 
 ```
 git branch Issue#1
 git checkout Issue#1
 ```
-2)Nesse branch, altere a classe Arquivo2.java para o seguinte código:
+2)Nesse branch, altere a classe `Arquivo2.java` para o seguinte código:
 
 ```java
 package lab2;
@@ -189,6 +189,7 @@ git commit -am"Feitas as alterações da issue # 1 "
 ```
 git checkout master
 ```
+> As mudanças ainda não foram aplicadas ao `master`
 
 5)Faça o merge do branch `Issue#1` com o master;
 
@@ -200,7 +201,7 @@ git merge Issue#1
 6)Verifique se as mudanças foram incorporadas  ao `Arquivo2.java` do master.
 
 ```
-Ok. As mudanças foram aplicadas ao `Arquivo2.java` do master
+> Ok. As mudanças foram aplicadas ao `Arquivo2.java` do master
 
 7)Exclua o branch Issue#1
 ```
