@@ -122,7 +122,9 @@ f5e8cb0 Adicionada mais uma linha no commit anterior
 Nesse log, temos 3 observações a fazer:
 
 1-O `Head` esstá apontando para o branch `teste`.
+
 2-O `master` está um commit atrás, ou seja, o branch `teste` está com um commit a mais.
+
 3-A última vez que fizemos um `push` (enviar para o servidor remoto) foi 4 commit atrás.
 
 Feita essas observações podemos agora fazer o delete do teste (criado apenas para demonstrar) usando a chave -D.
