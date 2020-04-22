@@ -62,3 +62,83 @@ Veja a Figura 2
 <p align="center">
    <strong>Figura 2-Uma típica árvore do Git com o Head apontando para o Branch `testing`</strong> 
 </p>
+
+#### Renomeando um Branch
+
+Para renomear um branch usa-se o comando 
+
+```
+$ git branch --move testing teste
+git log --oneline
+9dd3aa4 (HEAD -> teste, master) Revert "Revert "imprime a data formatada""
+99fffb1 Revert "imprime a data formatada"
+b7b2bf6 imprime a data formatada
+fc3be9d (origin/master) Adicionado o lab2
+cb0d1f5 Atualização em Arquivo 1
+f5e8cb0 Adicionada mais uma linha no commit anterior
+5d98f23 commit inical
+```
+> Observe como o nome mudou de `testing` para `teste`
+
+#### Como fazer para se saber quais os branchs existentes ?
+
+É muito simples, é só digitar:
+```
+git branch
+```
+Esse comando solicita ao git que mostre os branchs e assinale com um `*` aquele para o qual aponta o `Head`.
+
+Vejamos a resposta:
+
+```
+master
+* teste
+```
+#### Como fazer para excluir um branch?
+
+Para deletar um branch use a opção (-d ou –delete). Lembre-se que vc precisa estar em outro branch ou no master para executar essa operação. Se o branch a ser deletado contiver alterações em relação ao que o deu origem, o git faz um alerta. Se mesmo após o alerta você desejar excluir o branch, então use `-D` ao invés de `-d`.
+
+```
+$ git branch -d teste
+error: The branch 'teste' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D teste'
+```
+
+Agora temos duas opções: a primeira seria realmente usar o comando com a chave -D para forçar a deleção e a segunda seria fazer primeiramente o commit no branch e, depois, possivelmente um `merge`(que falaremos logo a seguir) para deletarmos o branch.
+
+Antes de fazermos isso, porém, vamos verificar o log:
+```
+git log --oneline
+23f8a43 (`HEAD -> teste`) Teste de alteração para excluir o branch (1)
+9dd3aa4 (`master`) Revert "Revert "imprime a data formatada" (2)
+99fffb1 Revert "imprime a data formatada"
+b7b2bf6 imprime a data formatada
+fc3be9d (`origin/master`) Adicionado o lab2 (3)
+cb0d1f5 Atualização em Arquivo 1
+f5e8cb0 Adicionada mais uma linha no commit anterior
+5d98f23 commit inical
+
+```
+Nesse log, temos 3 observações a fazer:
+
+1-O `Head` esstá apontando para o branch `teste`.
+2-O `master` está um commit atrás, ou seja, o branch `teste` está com um commit a mais.
+3-A última vez que fizemos um `push` (enviar para o servidor remoto) foi 4 commit atrás.
+
+Feita essas observações podemos agora fazer o delete do teste (criado apenas para demonstrar) usando a chave -D.
+
+```
+$ git checkout master  //Sai do branch teste e vai para o master
+$ git branch -D teste  //Deleta o branch teste, forçando com -D
+
+
+#### Como fazer para reintegrar um branch (fazer um merge)?
+
+
+
+
+
+
+
+
+
