@@ -132,6 +132,7 @@ Feita essas observações podemos agora fazer o delete do teste (criado apenas p
 ```
 $ git checkout master  //Sai do branch teste e vai para o master
 $ git branch -D teste  //Deleta o branch teste, forçando com -D
+```
 
 
 #### Como fazer para reintegrar um branch (fazer um merge)?
