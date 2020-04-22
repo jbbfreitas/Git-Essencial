@@ -208,7 +208,11 @@ git merge Issue#1
 ```
 git branch -d Issue#1
 ```
+O que acabamos de fazer é o que se denomina `merge fast-forward`. Esee nome pomposo quer dizer o siguinte: o git conseguiu fazer o merge sozinho pois não havia qualquer conflito entre a versão do branch `Issue#1` e o `master`. Conflito nesse caso quer dizer o seguinte: não há linhas de código com valores conflitantes, pois nesse caso, apenas adicionamos 3 novas linhas à classe `Arquivo2.java`.
 
+O que aconteceria se houvesse um conflito? O git simplesmente não saberia o que fazer: qual linha vale a do `master` ou a do branch `Issue#1`. O git não pode tomar essa decisão sozinho, então ele, simplesmente, informa que há um conflito para que você (responsável pelo merger) resolva. Mas isso será assunto da nossa próxima lição.
+
+Próximo Passo [14-Fazendo um true merge](../14-TrueMerge/README.md)
 
 
 
