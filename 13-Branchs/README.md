@@ -200,10 +200,11 @@ git merge Issue#1
 
 6)Verifique se as mudanças foram incorporadas  ao `Arquivo2.java` do master.
 
-```
+
 > Ok. As mudanças foram aplicadas ao `Arquivo2.java` do master
 
 7)Exclua o branch Issue#1
+
 ```
 git branch -d Issue#1
 ```
