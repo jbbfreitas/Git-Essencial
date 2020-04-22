@@ -137,6 +137,80 @@ $ git branch -D teste  //Deleta o branch teste, forçando com -D
 
 #### Como fazer para reintegrar um branch (fazer um merge)?
 
+Como dissemos anteriormente a finalidade de um merge é criar um braço (ramo) do projeto principal, fazer as mudanças, testar e depois reintegrá-lo ao projeto principal.
+
+Veja a Figura 3
+
+<p align="center">
+  <img src="../imagens/Branch3.png" alt="Uma típica árvore do Git com um branch a ser reintegrado ao master">
+</p>
+<p align="center">
+   <strong>Figura 3-ma típica árvore do Git com um branch a ser reintegrado ao master</strong> 
+</p>
+
+Vamos trablahar?
+
+1)Crie um nome branch denominado `Issue#1`;
+
+```
+git branch Issue#1
+git checkout Issue#1
+```
+2)Nesse branch, altere a classe Arquivo2.java para o seguinte código:
+
+```java
+package lab2;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Arquivo2 {
+    public static void main(String[] args) {
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        Date date = new Date();
+        //Imprime a data formatada
+        System.out.println("Hoje é "+dateFormat.format(date));
+        int a = 5;
+        int b = 10;
+        System.out.println("a+b="+(a+b));
+}
+}
+```
+
+3)Commit essas mudanças;
+
+```
+git commit -am"Feitas as alterações da issue # 1 "
+```
+
+4)Vá para o master e certifique-se que essas mundanças ainda não estão no Arquivo2.java daquele branch (o master);
+
+```
+git checkout master
+```
+
+5)Faça o merge do branch `Issue#1` com o master;
+
+```
+git merge Issue#1
+```
+
+
+6)Verifique se as mudanças foram incorporadas  ao `Arquivo2.java` do master.
+
+```
+Ok. As mudanças foram aplicadas ao `Arquivo2.java` do master
+
+7)Exclua o branch Issue#1
+```
+git branch -d Issue#1
+```
+
+
+
+
+
 
 
 
