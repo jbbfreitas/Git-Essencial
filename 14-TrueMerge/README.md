@@ -153,7 +153,7 @@ f36b41b Alterado o Arquivo2.java no master
 5d98f23 commit inical
 ```
 
-Viu como é tranquilo! Na prática o true-merge é o que mais ocorre pois em uma equipe com 5, 10 ou 40 desenvolvedores, dificilmente não haverá conflito entre os branchs. 
+Viu como é tranquilo! Na prática, o true-merge é o que mais ocorre pois, em uma equipe com 5, 10 ou 40 desenvolvedores, dificilmente não haverá conflito entre os branchs. 
 
 É isso, por hoje é só.
 
