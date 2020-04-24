@@ -148,7 +148,7 @@ Veja a Figura 3
    <strong>Figura 3-ma típica árvore do Git com um branch a ser reintegrado ao master</strong> 
 </p>
 
-Vamos trablahar?
+Vamos trabalhar?
 
 1)Crie um branch  denominado `Issue#1`;
 
