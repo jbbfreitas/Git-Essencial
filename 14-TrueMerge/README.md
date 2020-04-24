@@ -128,7 +128,7 @@ e o teste (Incoming Change,ou a mudança que está entrando) contém:
          int b = 1000;
 ``` 
 
-> Agora você tem que decidir quais são as linhas corretas. As opções são as seguintes: 1-Deixar o master como está, rejeitando o teste, 2-Aceitar o teste sobregravando o master e 3-Um mix das duas.
+> Agora você tem que decidir quais são as linhas corretas. As opções são as seguintes: 1-Deixar o master como está, rejeitando o teste, 2-Aceitar o teste sobregravando o master e 3-Um mix das duas opções anteriores.
 
 A título de exemplo, vamos considerar que o teste é que está correto. Para isso, apague o trecho de código:
 
