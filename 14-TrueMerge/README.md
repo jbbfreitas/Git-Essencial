@@ -14,7 +14,7 @@ Observe a Figura 1
    <strong>Figura 1- Um exemplo de conflito que pode necessitar de um TrueMerge</strong> 
 </p>
 
-Na Figura 1, o branch foi criado a partir do hash `534de`. Depois que o branch foi criado, outros commits foram realizados no master (3 para ser mais exato) e o merge será realizado no commit `ab8a77`. Se no commit `ab8a77` houver conflito com o branch, o git nos informa disso e temos que resolvê-lo manualmente.
+Na Figura 1, o branch foi criado a partir do hash `534de`. Depois que o branch foi criado, outros commits foram realizados no master (3 para ser mais exato) e o merge será realizado no commit `ab8a77`. Se no commit `ab8a77` houver conflito com o branch, o git nos informa a respeito disso e temos que resolvê-lo manualmente.
 
 Vamos fazer um exemplo e tudo ficará mais claro.
 
@@ -93,7 +93,7 @@ public class Arquivo2 {
 git commit -am"Alterado o Arquivo2.java no teste"
 ```
 
-7-Vá para o master, para fazer o merge. Observe que haverá um conflito pois o mesmo arquivo foi alterado nas duas versões nas mesmas linhas. Observe
+7-Vá para o master, para fazer o merge. Observe que haverá um conflito pois o mesmo arquivo foi alterado nas duas versões nas mesmas linhas. Observe:
 
 ```
 get checkout master
@@ -153,7 +153,7 @@ f36b41b Alterado o Arquivo2.java no master
 5d98f23 commit inical
 ```
 
-Viu como é tranquilo!
+Viu como é tranquilo! Na prática o true-merge é o que mais ocorre pois em uma equipe com 5, 10 ou 40 desenvolvedores, dificilmente não haverá conflito entre os branchs. 
 
 É isso, por hoje é só.
 
