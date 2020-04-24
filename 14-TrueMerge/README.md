@@ -60,7 +60,12 @@ git commit -am"Alterado o Arquivo2.java no master"
 ```
 
 
-5-No branch teste atere o `Arquivo2.java` para:
+5-No branch `teste` atere o `Arquivo2.java` para:
+
+```
+git checkout teste
+```
+
 
 ```java
 package lab2;
@@ -123,9 +128,9 @@ e o teste (Incoming Change,ou a mudança que está entrando) contém:
          int b = 1000;
 ``` 
 
-> Agora você tem que decidir quais são as linhas corretas. As opções são as seguintes: 1-Deixar o master como está, rejeitando o teste, 2-Aceitar o teste sobregravando o master e 3-O mix das duas.
+> Agora você tem que decidir quais são as linhas corretas. As opções são as seguintes: 1-Deixar o master como está, rejeitando o teste, 2-Aceitar o teste sobregravando o master e 3-Um mix das duas.
 
-A título de exemplo, vamos considerar que o teste é está correto. Para isso, apague o trecho de código:
+A título de exemplo, vamos considerar que o teste é que está correto. Para isso, apague o trecho de código:
 
 ```
 <<<<<<< HEAD
@@ -148,6 +153,9 @@ f36b41b Alterado o Arquivo2.java no master
 5d98f23 commit inical
 ```
 
+Viu como é tranquilo!
+
+É isso, por hoje é só.
 
 
 
