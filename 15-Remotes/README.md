@@ -178,7 +178,14 @@ git push origin teste
    <strong>Figura 2- Verificando o seu branch remoto `teste`</strong> 
 </p>
 
+8. Depois clique na mensagem do seu commit "Acrescentada a variável c". Você deverá ver uma imagem parecida com a da Figura 3.
 
+<p align="center">
+  <img src="../imagens/branchRemoto2.png" alt="Mostrando a mudança no arquivo">
+</p>
+<p align="center">
+   <strong>Figura 3- Mostrando a mudança no arquivo</strong> 
+</p>
 
 
 
