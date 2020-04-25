@@ -160,13 +160,24 @@ git push origin teste
 
 5. Veja como fica o github depois desta última operação.
 
-
 <p align="center">
   <img src="../imagens/DoisBranchs.png" alt="O repositório remoto após a criação do branch remoto">
 </p>
 <p align="center">
    <strong>Figura 1- O repositório remoto após a criação do branch remoto</strong> 
 </p>
+
+6. Clique no botão destacado na Figura 1.
+
+7. Em seguida clique no link destacado na Figura 2.
+
+<p align="center">
+  <img src="../imagens/DoisBranchs.png" alt="Verificando o seu branch remoto teste">
+</p>
+<p align="center">
+   <strong>Figura 2- Verificando o seu branch remoto `teste`</strong> 
+</p>
+
 
 
 
