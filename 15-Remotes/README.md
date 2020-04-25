@@ -172,7 +172,7 @@ git push origin teste
 7. Em seguida clique no link destacado na Figura 2.
 
 <p align="center">
-  <img src="../imagens/DoisBranchs.png" alt="Verificando o seu branch remoto teste">
+  <img src="../imagens/branchRemoto1.png" alt="Verificando o seu branch remoto teste">
 </p>
 <p align="center">
    <strong>Figura 2- Verificando o seu branch remoto `teste`</strong> 
