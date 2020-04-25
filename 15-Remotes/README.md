@@ -187,6 +187,15 @@ git push origin teste
    <strong>Figura 3- Mostrando a mudança no arquivo</strong> 
 </p>
 
+O git está informando nessa imagem que as linhas 16  e 17 foram alteradas (suprimidas e depois inseridas). E essa é, exatamente a mudança que fizemos, não foi?
+
+Bom foi isso que nos propusemos a fazer: criar um branch remoto com as mudanças realizada no repositório local.
+
+#### Quais seriam os próximos passos? 
+
+Penso que o `Maintainer` deverá fazer o merge ou rejeitar o seu `pull request`. Isso é assunto para a próxima lição
+
+
 
 
 
