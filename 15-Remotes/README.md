@@ -196,6 +196,7 @@ Bom foi isso que nos propusemos a fazer: criar um branch remoto com as mudanças
 Penso que o `Maintainer` deverá fazer o merge ou rejeitar o seu `pull request`. Isso é assunto para a próxima lição
 
 
+Próximo Passo [16-Outros Recursos do Remote](../16-OutrosRecursosRemote/README.md)
 
 
 

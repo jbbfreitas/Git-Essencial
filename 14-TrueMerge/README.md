@@ -157,6 +157,7 @@ Viu como é tranquilo! Na prática, o true-merge é o que mais ocorre pois, em u
 
 É isso, por hoje é só.
 
+Próximo Passo [15-Fazendo um true merge](../15-Remotes/README.md)
 
 
 
