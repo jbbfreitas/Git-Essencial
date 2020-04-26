@@ -12,7 +12,7 @@ git checkout develop
 git push origin develop
 
 ```
-Se você estiver publicando um repositório local pela primeira vez em um repositório remoto, a opção "-u" deverá ser utilizada. Ela garante que uma conexão entre os repositórios remoto e local:
+Se você estiver publicando um repositório local pela primeira vez em um repositório remoto, a opção "-u" deverá ser utilizada. Ela garante que uma conexão entre os repositórios remoto e local seja estabelecida:
 
 ```
 git push -u origin develop
@@ -32,7 +32,7 @@ Fazer o download de dados é uma etapa essencial no seu trabalho diário - porqu
 Vejamos agora as diferenças, mais importantes, entre `fetch` e `pull`.
 
 O `git fetch` realmente baixa apenas novos dados de um repositório remoto - mas não integra nenhum desses novos dados aos seus arquivos de trabalho. O `fetch` é excelente para obter uma nova visão de todas as coisas que aconteceram em um repositório remoto.
-Devido à sua natureza "inofensiva", você pode ter certeza: a busca nunca manipulará, destruirá ou estragará nada. Isso significa que você usá-lo quantas vezes quiser sem o menor receio.
+Devido à sua natureza "inofensiva", você pode ter certeza: o `fetch` nunca manipulará, destruirá ou estragará nada. Isso significa que você pode e deve usá-lo quantas vezes quiser sem o menor receio.
 Sintaxe:
 
 ```
@@ -91,7 +91,7 @@ cd pasta/para/receber/clone
 git clone https://github.com/seuLogin/seuRepositorio.git
 ```
 
-Este comando fara o download do projeto para uma pasta especificada com o nome `seuRepositorio`. Se desejar clonar para uma pasta diferente, simplesmente especifique o nome da pasta de destina como último parâmetro.
+Este comando fará o `download` do projeto para uma pasta especificada com o nome `seuRepositorio`. Se desejar clonar para uma pasta diferente, simplesmente especifique o nome da pasta de destino como último parâmetro.
 
 ```
 git clone https://github.com/seuLogin/seuRepositorio.git
@@ -111,7 +111,7 @@ git merge origin/master // dispensada se usar o pull
 git checkout -b feedback_form //cria o branch 
 git add feedback.html //adiciona o formulário ao stagin
 git commit -m "Adicionado o formulário de feedback"
-git fetch //Verifica se houve mudança no repo remoto 
+git fetch //Verifica se houve mudança no repo remoto. Se sim tem que fazer o merge
 git push -u origin feedback_form //envia para o branch remoto
 ```
 
