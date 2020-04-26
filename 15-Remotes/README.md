@@ -184,10 +184,10 @@ git push origin teste
   <img src="../imagens/branchRemoto2.png" alt="Mostrando a mudança no arquivo">
 </p>
 <p align="center">
-   <strong>Figura 3- Mostrando a mudança no arquivo</strong> 
-</p>
+    <strong>Figura 3- Mostrando a mudança no arquivo</strong> 
+    </p>
 
-O git está informando nessa imagem que as linhas 16  e 17 foram alteradas (suprimidas e depois inseridas). E essa é, exatamente a mudança que fizemos, não foi?
+O git está informando nessa imagem que as linhas 1≥6  e 17 foram alteradas (suprimidas e depois inseridas). E essa é, exatamente a mudança que fizemos, não foi?
 
 Bom foi isso que nos propusemos a fazer: criar um branch remoto com as mudanças realizada no repositório local.
 
