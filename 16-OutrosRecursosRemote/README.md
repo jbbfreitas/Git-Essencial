@@ -115,6 +115,151 @@ git fetch //Verifica se houve mudança no repo remoto. Se sim tem que fazer o me
 git push -u origin feedback_form //envia para o branch remoto
 ```
 
+#### Stash
+
+O Stash (esconderijo) é uma espécie de "área de transferência" para suas alterações locais: salva todas as alterações não confirmadas e deixa sua cópia de trabalho em um estado limpo. Você pode restaurá-lo mais tarde, a qualquer momento.
+
+##### Quando usar o stash? 
+No seu trabalho diário, muitas vezes você precisará obter rapidamente uma cópia de trabalho limpa. Isso é aconselhável (ou mesmo necessário) antes de alternar `branchs`, executar um `pull`, `merge`, `rebase` ou `cherry pick`. Em vez de comprometer o trabalho pela metade, você pode usar o `Stash` para armazenar com segurança suas alterações locais temporariamente.
+
+Você pode criar quantos `Stashes` quiser e restaurá-los quando e onde quiser (independentemente da ramificação atual).
+
+::: :pushpin: Importante :::
+
+>Por favor, seja cuidadoso!
+Armazenar arquivos não rastreados no Git pode remover arquivos e pastas ignorados como um efeito colateral indesejado! Isso depende de como exatamente a regra de ignorar está modelada: uma pasta que foi ignorada com /pasta-ignorada/* **será removida** após armazenar arquivos não rastreados. Por outro lado, se a regra de ignorar for /pasta-ignorada, o Git não a limpará.
+Observe que esse comportamento (definitivamente discutível) faz parte do Git.
+
+Exemplo de como usar o stash
+
+```
+$ git status
+On branch teste
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lab2/Arquivo2.java
+```
+
+Observe que existem alterações não commitadas. A cópia de trabalho não está limpa.
+
+Vamos então usar o `stash` nosso favor.
+
+```
+git stash
+ $ git stash
+Saved working directory and index state WIP on teste: 7c766e1 Acrescentada a variável c
+```
+
+Agora vamos ver o status
+
+```
+$ git status
+On branch teste
+nothing to commit, working tree clean
+```
+
+E se quisermos recurperar o stash?
+
+Vamos primeiro verificar quantos stash temos:
+
+```
+git stash list
+stash@{0}: WIP on teste: 7c766e1 Acrescentada a variável c
+stash@{1}: WIP on master: fc3be9d Adicionado o lab2
+
+```
+O stash que queremos recuperar é o stash@{0}, correto?
+
+```
+git stash apply stash@{0}
+On branch teste
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   lab2/Arquivo2.java
+```
+
+#### Rebase
+
+No git há duas maneiras de integrar as mudanças, uma delas é o `merge`, já estudado  nas lições [13-Branchs](../13-Branchs/README.md) e [14-Fazendo um true merge](../14-TrueMerge/README.md) e a outra é usar o poderoso comando `rebase`.
+
+Para melhor entender o `rebase`, vamos recapitular o que acontece quando fazemos um `merge`.
+
+
+<p align="center">
+  <img src="../imagens/merge.png" alt="Uma árvore do git com um master e um branch">
+</p>
+<p align="center">
+   <strong>Figura 1- Uma árvore do git com um master e um branch</strong> 
+</p>
+
+Quando fazemos o merge o que o git faz é o seguinte: cria um novo commit `C5`, mesclando o conteúdo de `C3` com `C4`. Veja a Figura 2. Observe que o commit `C5`aponta para `C4`e `C3`, ou seja, foi originado da mesclagem desses dois commits
+
+<p align="center">
+  <img src="../imagens/merge2.png" alt="Uma árvore do git com um master e um branch após o merge">
+</p>
+<p align="center">
+   <strong>Figura 2- Uma árvore do git com um master e um branch após o merge</strong> 
+</p>
+
+Entretanto há uma outra maneira de reintegrar as mudanças: é possível incorporar as mudanças feitas em `C4` em `C3`. Na linguagem do git isso é denominado `rebase`.
+
+Para fazer o rebase, seria necessário:
+
+```
+git checkout experiment //mudar para o branch `experiment`
+git rebase master // fazendo o rebase com o master
+```
+
+
+<p align="center">
+  <img src="../imagens/merge3.png" alt="Uma árvore do git com um master e um branch após o rebase">
+</p>
+<p align="center">
+   <strong>Figura 3- Uma árvore do git com um master e um branch após o rebase</strong> 
+</p>
+
+Após o rebase fazer o merge do teste a partir do master
+
+```
+git checkout master
+git merge experiment
+```
+
+Veja como fica a árvora agora, Figura 4.
+
+<p align="center">
+  <img src="../imagens/merge4.png" alt="Uma árvore do git com um master e um branch após o merge">
+</p>
+<p align="center">
+   <strong>Figura 4- Uma árvore do git com um master e um branch após o merge</strong> 
+</p>
+
+Uma das vantagens do rebase frente ao merge é que nesse caso, quando vc fizer o push o `mantainer` não precisará fazer o true merge apenas o fast-forward.
+
+#### Cherry pick
+
+Cherry-picking é um comando do git que permite ao usuário escolher os commits que deseja mandar à uma branch. Assim, ele pode analisar os commits em outra branch do repositório e escolher aquelas que são úteis para ir para sua branch.
+
+É um comando útil, pois permite a adição de apenas commits importantes, evitando commits que estão sem testes ou que contém erros. Além disso, esse comando auxilia no desenvolvimento de softwares colaborativos, visto que vários usuários mandam alterações no código a todo momento. Usando o cherry-picking, é possível escolher os commits relevantes e de qualidades dos colaboradores, para depois levá-los às branchs principais, como a master.
+
+Exemplo:
+
+Suponha que haja um commit no master que você deseja trazer para a sua branch teste. Esse commit é o `d534af7`, por hipótese.
+
+Então para incorporar esse commit à sua branch faça:
+
+```
+git checkout teste
+git cherry-pick "d534af7"
+```
+
+Claro que podem haver conflitos, mas isso vc já sabe como resolver. 
+
+Por hoje é só.
 
 
 
