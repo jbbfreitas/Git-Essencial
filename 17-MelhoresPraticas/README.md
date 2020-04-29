@@ -8,17 +8,17 @@
 
 - Profissional responsável por manter o repositório remoto do git
 - Responsabilidades:
--   Executa os commits, após a realização dos testes
--   Integra os pull request
--   Possui todas as permissões que possue o contribuidor e mais algumas
+    -   Executa os commits, após a realização dos testes
+    -   Integra os pull request
+    -   Possui todas as permissões que possue o contribuidor e mais algumas
 
 2. Contributor (Contribuidor)
 
 - Profissional, geralmente um desenvolvedor, que contribui com o projeto, enviando novas funcionalidades e/ou fazendo atualizações ou correções de bugs. Esse profissional submete os seus commits que são convertidos em pull request.
 - Responsabilidades:
--   Clonar o repositorio remoto em um repositório local
--   Não faz commit no repositório remoto
--   Submete pull requests
+    -   Clonar o repositorio remoto em um repositório local
+    -   Não faz commit no repositório remoto
+    -   Submete pull requests
 
 ##### Tamanho das equipes
 1. Pequena - 1 a 2 membros
