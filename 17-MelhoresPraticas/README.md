@@ -76,7 +76,7 @@
 
 ##### Boas práticas
 
-- Mantenha  repositórios separado:
+- Mantenha  repositórios separados, isso melhora a segurança
 - Crie Normas para contributors
 - Crie Normas para maintainers
 - Crie Padrões de codificação
@@ -105,3 +105,6 @@ https://github.com/zendframework/maintainers
 <p align="center">
    <strong>Figura 5- Folha de Resumo do Git</strong> 
 </p>
+
+
+Final do Curso `GIT Essencial`. Pratique!
