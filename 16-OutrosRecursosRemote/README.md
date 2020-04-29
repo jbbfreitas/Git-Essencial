@@ -127,7 +127,7 @@ Você pode criar quantos `Stashes` quiser e restaurá-los quando e onde quiser (
 ::: :pushpin: Importante :::
 
 >Por favor, seja cuidadoso!
-Armazenar arquivos não rastreados no Git pode remover arquivos e pastas ignorados como um efeito colateral indesejado! Isso depende de como exatamente a regra de ignorar está modelada: uma pasta que foi ignorada com /pasta-ignorada/* **será removida** após armazenar arquivos não rastreados. Por outro lado, se a regra de ignorar for /pasta-ignorada, o Git não a limpará.
+Armazenar arquivos não rastreados, o Git pode remover arquivos e pastas ignorados como um efeito colateral indesejado! Isso depende de como exatamente a regra de ignorar está modelada: uma pasta que foi ignorada com /pasta-ignorada/* **será removida** após armazenar arquivos não rastreados. Por outro lado, se a regra de ignorar for /pasta-ignorada, o Git não a limpará.
 Observe que esse comportamento (definitivamente discutível) faz parte do Git.
 
 Exemplo de como usar o stash
@@ -144,7 +144,7 @@ Changes not staged for commit:
 
 Observe que existem alterações não commitadas. A cópia de trabalho não está limpa.
 
-Vamos então usar o `stash` nosso favor.
+Vamos então usar o `stash` a nosso favor.
 
 ```
 git stash
@@ -205,7 +205,7 @@ Quando fazemos o merge o que o git faz é o seguinte: cria um novo commit `C5`, 
    <strong>Figura 2- Uma árvore do git com um master e um branch após o merge</strong> 
 </p>
 
-Entretanto há uma outra maneira de reintegrar as mudanças: é possível incorporar as mudanças feitas em `C4` em `C3`. Na linguagem do git isso é denominado `rebase`.
+Entretanto há uma outra maneira de reintegrar as mudanças: é possível incorporar as mudanças feitas no commit `C4` diretamente no commit `C3`. Na linguagem do git isso é denominado `rebase`.
 
 Para fazer o rebase, seria necessário:
 
@@ -221,6 +221,8 @@ git rebase master // fazendo o rebase com o master
 <p align="center">
    <strong>Figura 3- Uma árvore do git com um master e um branch após o rebase</strong> 
 </p>
+
+O commit `C4'` contém `C4` e `C3`.
 
 Após o rebase fazer o merge do teste a partir do master
 
@@ -238,7 +240,8 @@ Veja como fica a árvora agora, Figura 4.
    <strong>Figura 4- Uma árvore do git com um master e um branch após o merge</strong> 
 </p>
 
-Uma das vantagens do rebase frente ao merge é que nesse caso, quando vc fizer o push o `mantainer` não precisará fazer o true merge apenas o fast-forward.
+Uma das vantagens do rebase frente ao merge é que nesse caso, quando vc fizer o push o lider da equipe ou o
+`mantainer` não precisará fazer o `true merge` apenas o `fast-forward`.
 
 #### Cherry pick
 
@@ -261,6 +264,7 @@ Claro que podem haver conflitos, mas isso vc já sabe como resolver.
 
 Por hoje é só.
 
+Próximo Passo [17-Melhores Práticas](../17-MelhoresPraticas/README.md)
 
 
 
