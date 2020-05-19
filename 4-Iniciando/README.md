@@ -1,6 +1,6 @@
 ### 4.Iniciando com o GIT
 
-1. Crie uma pasta denomninada "Grupo de Estudos"
+1. Crie uma pasta denominada "Grupo de Estudos"
 
 > Esta pasta será utilizada muitas outras vezes, então crie-a em um local de fácil acesso.
 
