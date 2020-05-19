@@ -64,9 +64,10 @@ Toda ferramenta VCS é poderosa!
     - HTML,CSS, JavaScript
     - PHP, Ruby, TypeScript
     - Java, C, C#
-- Não deve ser usado para
-    - Arquivos de mídia (fotos, filmes, música)
+- Também deve ser usado (com limitações) para
     - Processadores de texto, planilhas e PDF
+-Não deveria ser usado para
+    - Arquivos de mídia (fotos, filmes, música)
 
 
 Próximo Passo [2-Instalar o GIT](/2-Instalacao/README.md)
