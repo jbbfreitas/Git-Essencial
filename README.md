@@ -66,7 +66,7 @@ Toda ferramenta VCS é poderosa!
     - Java, C, C#
 - Também deve ser usado (com limitações) para
     - Processadores de texto, planilhas e PDF
--Não deveria ser usado para
+- Não deveria ser usado para
     - Arquivos de mídia (fotos, filmes, música)
 
 
