@@ -1,4 +1,4 @@
-### True Merge
+### 14-True Merge
 
 Na lição 13 mostramos o merge fast forword, ou merge automático. Esse merge é realizado pelo prórpio git pois não há conflito entre as versões que estão sendo "mergeadas". 
 
