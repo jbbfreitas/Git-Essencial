@@ -1,4 +1,4 @@
-### 6.Principais tipos de Log (reigstro) do GIT
+### 6.Principais tipos de Log (registro) do GIT
 
 O git foi concebido para ser uma ferramenta de `linha de comando`, ou seja, para ser usada no `terminal` ou `console` ou no `command` do windows. Mas para aqueles que odeiam as aplicações de linha de comando, fiquem tranquilos por que existem inúmeras ferramentas gráficas que irão auxiliar no uso do git.
 
@@ -30,7 +30,7 @@ Author: João Bosco de Barros Freitas <jbbfreitas@gmail.com>
 Date:   Sun Mar 29 17:18:01 2020 -0400
 ````
 
-> Meio confuso, não. Muita informação.  As vezes, entretanto, pode ser necessário usar esse comando.
+> Meio confuso, não? Muita informação.  As vezes, entretanto, pode ser necessário usar esse comando.
 
 
 ::: :pushpin: Importante :::
