@@ -105,7 +105,7 @@ Observe a figura abaixo:
 
 #### 7.3 Como o GIT identifica a versão corrente
 
-A Figura 3 apresenta uma árvore Git contendo o `master` e um `branch`. Tanto o `master` como o `branch` possuem 3 versões. O `head` é como se fosse a uma cabeça de leitura (como nas antigas fitas K-7). Na verdade é um ponteiro que se posiciona na versão corrente. 
+A Figura 3 apresenta uma árvore Git contendo o `master` e um `branch`. Tanto o `master` como o `branch` possuem 3 versões. O `head` é como se fosse  uma cabeça de leitura (como nas antigas fitas K-7). Na verdade é um ponteiro que se posiciona na versão corrente. 
 
 ````
 $ git log --oneline
