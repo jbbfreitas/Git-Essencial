@@ -23,7 +23,7 @@ public class Arquivo1 {
 $ git add .
 $ git commit -m "Criada a classe Arquivo1.java"
 ```
-5. Agora vamos verifica onde está posicionado o `Head`. Para isso digite:
+5. Agora vamos verificar onde está posicionado o `Head`. Para isso digite:
 
 ```git
 $ git log --oneline
