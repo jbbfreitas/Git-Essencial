@@ -40,14 +40,14 @@ Caso você não seja o proprietário do repositório, e for convidado a fazer co
 Para habilitar um token no github proceda assim:
 
 - 1-Clique na seta para baixo que está à direita de sua foto (ou ícone se vc ainda não inseriu uma);
--  2-No menu que abre, selecione "Settings";
--  3-No menu, que se abre do lado esquerdo da janela, selecione a opção "Developer settings";
-- 4-No submenu dessa opção, selecione "Personal access tokens";
-- 5-Clique no botão (que fica no lado superior direito da janela), "Generate new tokwn";
-- 6-No campo "Note" digite um texto explicativo da razão para a qual este token está sendo criado;
-- 7-No combo "Expiration" selecione o número de dias para que este token expire. O padrão é 30 dias;
-- 8-Selecione os escopos (direitos de acesso);
-- 9-Clique no botão que fica no canto esquerdo inferior, "Generate token"
+-  2-No menu que se abre do lado direito da janela, selecione `Settings`;
+-  3-Em seguida, no menu, que se abre do lado esquerdo da janela, selecione a opção `Developer settings`;
+- 4-Após, no submenu dessa opção, selecione `Personal access tokens`;
+- 5-Clique no botão (que fica no lado superior direito da janela), `Generate new token`;
+- 6-No campo `Note` digite um texto explicativo contendo a razão para a qual este token está sendo criado;
+- 7-No combo `Expiration` selecione o número de dias para que este token expire. O padrão é 30 dias;
+- 8-Selecione os escopos (direitos de acesso) que serão concedidos ao usuário do token;
+- 9-Clique no botão que fica no canto esquerdo inferior, `Generate token`
 - 10-Anote o token gerado em um local seguro pois vc precisará informá-lo quando fizer o commit pela primeira vez.
 
 
