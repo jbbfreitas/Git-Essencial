@@ -49,6 +49,7 @@ Para habilitar um token no github proceda assim:
 - 8-Selecione os escopos (direitos de acesso) que serão concedidos ao usuário do token;
 - 9-Clique no botão que fica no canto esquerdo inferior, `Generate token`
 - 10-Anote o token gerado em um local seguro pois vc precisará informá-lo quando fizer o commit pela primeira vez.
+- 11-Pronto!
 
 
 Próximo Passo [3-Configurar o GIT](../3-Configuracao/README.md)
